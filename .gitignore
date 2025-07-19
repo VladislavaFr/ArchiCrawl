@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files (если хочешь скрыть данные)
+data/
+*.csv
+*.json
+*.zip
+*.rar
+
+# Logs and outputs
+logs/
+*.log
+
+# IDE/Editor config (для PyCharm, VSCode и др.)
+.vscode/
+.idea/
+
+# Cache files
+*.cache
+*.pkl
+
+# System files
+.DS_Store
+Thumbs.db
