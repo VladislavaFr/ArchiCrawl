@@ -10,7 +10,9 @@ ArchiCrawl is an image collection tool designed for the automated gathering of i
 - Throttle control to prevent IP blocking
 - Fully customizable and extensible
 
+
 ## Folder Structure Example
+```
 data/
 ├── boho/
 │   ├── bedroom/
@@ -21,25 +23,29 @@ data/
 │   ├── kitchen/
 │   └── living_room/
 ...
-
+```
 ## Installation
 
 1. Clone the repository:
+```
 git clone https://github.com/VladislavaFr/archicrawl.git
 cd archicrawl
-
+```
 2. Create a virtual environment and activate it:
+```
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-3. Install the dependencies:
+```
+4. Install the dependencies:
+```
 pip install -r requirements.txt
-
+```
 ## Usage
 
 To start crawling images:
+```
 python archicrawl.py
-
+```
 You can configure keywords, number of images, and folder structure inside config.py.
 
 ## Disclaimer
